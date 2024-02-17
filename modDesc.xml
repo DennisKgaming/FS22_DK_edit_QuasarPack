@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="71">
+    
+	<author>DennisK</author>
+    
+	<version>1.0.0.0</version>
+	
+	<iconFilename>icons/icon_quasarHS.dds</iconFilename>
+    
+	<title>
+        <en>Capello Quasar Pack</en>
+    </title>
+	
+	<description>
+<en>
+<![CDATA[Capello Quasar Pack
+
+High quality corn and sunflower headers from Capello. With active corn stompers that will clear a path to protect your tracks or tires.
+Can be delivered to match the colors of most brands of combines.
+
+Models:  Diamond 8, Quasar HS16, HS20, HS24
+Working width: 6, 12, 15, 18 Meters
+Power: 100, 210, 240, 280 HP
+Working speed: 20 kph
+Brand: Capello
+Price: $ 63500, $ 110000, $ 156000, $ 187000]]>
+</en>
+
+	</description>
+    
+	<multiplayer supported="true" />
+
+    <storeItems>
+		<storeItem rootNode="vehicle" xmlFilename="xml/diamant8.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="xml/quasarHS16.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="xml/quasarHS20.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="xml/quasarHS24.xml"/>
+    </storeItems>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+	<vehicleTypes>
+        <type name="capelloHS" parent="cutter" filename="$dataS/scripts/vehicles/Vehicle.lua" >
+			<specialization name="mulcher" />
+        </type>
+    </vehicleTypes>
+	
+	<l10n>
+		<text name="configuration_CLAASYELLOW"><en>Claas US Yellow</en><de>Claas US gelb</de><fr>Claas US Jaune</fr></text>
+		<text name="configuration_CAPELLO_RED1"><en>Capello Red</en><de>Capello Rot</de><fr>Capello rouge</fr></text>
+	</l10n>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
+
+
