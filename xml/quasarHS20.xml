@@ -196,8 +196,6 @@
 		</movingParts>
     </cylindered>
 	
-
-
     <powerTakeOffs>
         <input inputNode="ptoLeft"  inputAttacherJointIndices="1" aboveAttacher="true" ptoName="LEFT_PTO"/>
         <input inputNode="ptoRight" inputAttacherJointIndices="1" aboveAttacher="true" ptoName="RIGHT_PTO"/>
